@@ -1,0 +1,125 @@
+/************* Claim Content *************/
+.title-header {
+  padding: 3px 0 5px;
+  background: #4995cf;
+  color: #fff;
+  display: block;
+  clear: both;
+  text-align: center;
+  font-size: 17px;
+}
+
+.claim-icon {
+  display: block;
+  font-size: 140px;
+  margin-bottom: 40px;
+}
+
+
+.add-claim-content {
+  border: 1px solid #ccc;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+.add-claim-content:hover {
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.43);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.43);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.43);
+  outline: none !important;
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.add-claim-txt {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.claim-dropdown {
+  top: 85%;
+  width: 100%;
+}
+
+/************* Add Claim Color *************/
+.claim-auto, .claim-auto:hover {
+  color: #687c82;
+}
+
+.claim-general {
+  color: #e87969;
+}
+
+.claim-property {
+  color: #78b9c8;
+}
+
+.claim-workers {
+  color: #959ca1;
+}
+
+
+
+.btn-group.open .dropdown-toggle {
+  color: inherit;
+}

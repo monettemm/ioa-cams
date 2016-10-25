@@ -1,0 +1,187 @@
+.panel-primary {
+    border-color: #adadad;
+}
+
+.statistics .panel-heading {
+    padding: 10px 15px;
+}
+
+.statistics .dropdown-menu > li > a:hover {
+    color: #000 !important;
+}
+
+.statistics .panel-heading {
+    background-color: #4995cf;
+    font-size: 14px;
+}
+
+.statistics .progressContainer {
+    margin-bottom: 0;
+}
+
+.statistics .progressContainer .type {
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 14px;
+    display: block;
+}
+
+.statistics .progressContainer .progress-bar-grey {
+    background: #adadad;
+}
+
+.statistics .progressContainer .progress-bar-darkblue {
+    background: #296198;
+}
+
+.statistics .progressContainer .progress-bar-blue {
+    background: #4995cf;
+}
+
+.statistics .progressContainer .stats {
+    text-align: center;
+}
+
+.statistics .progressContainer .stats .number {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.statistics .progressContainer .stats .number.grey {
+    background-color: #adadad;
+}
+
+.statistics .progressContainer .stats .number.darkblue {
+    background-color: #3f7ebc;
+}
+
+.statistics .progressContainer .stats .number.blue {
+    background-color: #4995cf;
+}
+
+.statistics .progressContainer .stats .type {
+    font-size: 12px;
+}
+
+.statistics .latest {
+    padding: 0;
+}
+
+.line .content {
+    border: 0;
+    background-color: transparent;
+}
+.stats {
+    padding: 0;
+}
+
+.statistics .latest .first,.statistics .latest .second {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.statistics .latest .first .line,.statistics .latest .second .line {
+    margin-bottom: 6px;
+}
+
+.statistics .latest .first .line .title,.statistics .latest .second .line .title {
+    font-weight: 900;
+}
+
+.statistics .latest .first .line .status,.statistics .latest .second .line .status {
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.statistics .latest .first .line .status.grey,.statistics .latest .second .line .status.grey {
+    background-color: #adadad;
+}
+
+.statistics .latest .first .line .status.green,.statistics .latest .second .line .status.green {
+    background-color: #58c71f;
+}
+
+.statistics .latest .second {
+    background: #eee;
+}
+
+/************* Animation *************/
+.progress {
+    animation: css 2s 1 forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.activeWidget {
+    animation: css 2s 1 forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes css {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.widget3,.widget2 {
+    display: none;
+}
+
+.progress {
+    height: 18px;
+    border-radius: 10px;
+}
+
+.txt {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-style: normal;
+}
+
+.dash-cat {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.content .small {
+    padding: 3px 0;
+}
+
+.smalllink {
+    color: #337ab7 !important;
+    text-decoration: none;
+}
+
+.elem {
+    position: relative;
+}
+
+.sep::before {
+    content: '';
+    height: 100%;
+    width: .1px;
+    top: 5px;
+    left: -1;
+    width: 1px;
+    height: 20px;
+    border-right: 1px solid #4089c1;
+    box-shadow: 1px 0 0 rgba(255,255,255,0.1);
+    position: absolute;
+    right: 0;
+    background-color: #ededed;
+}
+
+.warn {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+}

@@ -1,0 +1,11 @@
+## 2016-10-25
+• Updated copyright in app.css
+
+## 2016-10-24
+• App.css updated
+• Breadcrumb added to search-claims.html
+• My team link removed from left navigation
+• Left navigation snow fixed instead of absolute
+• Claims add new sub category when selected
+• Lower res claims add new fixed
+• Added admin search claim section, currently commented out

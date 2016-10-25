@@ -1,0 +1,75 @@
+/************* Search Claims Content *************/
+.title-header {
+    padding: 3px 0 5px;
+    background: #4995cf;
+    color: #fff;
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 17px;
+}
+
+.search-claims-btn {
+  background: #296198;
+  padding: 6px 9px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.claim-header {
+    color: #4995cf;
+}
+
+.control-label {
+    color: #5e5e5e;
+    padding-bottom: 6px;
+    font-weight: 400;
+    text-align: left !important;
+}
+
+.form-control {
+    margin-top: 8px;
+}
+
+
+.checkbox input {
+    margin: 8px;
+}
+
+.required:before {
+    color: red;
+    content: '*';
+}
+
+#clear-filters {
+    background-color: #4995cf;
+    border: medium none;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+#clear-filters:hover {
+    background-color: #4689bd;
+    padding-bottom: 8px;
+}
+
+.spacer {
+    margin-top: 40px;
+}
+
+.txt {
+    font-size: 12px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.elem {
+    position: relative;
+}
+
+
+.input-group[class*="col-"] {
+    float: left;
+}

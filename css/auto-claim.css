@@ -1,0 +1,79 @@
+/************* Add New Claim Content *************/
+.panel-primary {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.title-header {
+    padding: 3px 0 5px;
+    background: #4995cf;
+    color: #fff;
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 17px;
+}
+
+.claim-header {
+    color: #4995cf;
+}
+
+.control-label {
+    color: #5e5e5e;
+    padding-bottom: 6px;
+    font-weight: 400;
+    text-align: left !important;
+}
+
+.form-control {
+    margin-top: 8px;
+}
+
+.required:before {
+    color: red;
+    content: '*';
+}
+
+.form-divider {
+    margin-top: 10px;
+}
+
+#continue-button {
+    background-color: #4995cf;
+    border: medium none;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+#continue-button:hover {
+    background-color: #4689bd;
+    padding-bottom: 8px;
+}
+
+.new-claim {
+    padding-left: 0px;
+}
+/************* Progress Bar On Right *************/
+
+.current-progress {
+    line-height: 2.5em;
+}
+
+.current-progress:hover {
+    color: #4995cf;
+}
+
+.new-claim-active {
+    background-color: #4995cf;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    padding-left: 15px;
+    position: absolute;
+    width: 100%;
+}
+
+.new-claim-active:hover {
+    color: #ffffff;
+}
