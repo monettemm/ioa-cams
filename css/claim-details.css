@@ -1,4 +1,10 @@
 /************* Claim Details *************/
+
+#claim-section {
+    margin-top: 50px;
+}
+
+
 .panel-primary {
     border: none;
     margin-top: 20px;

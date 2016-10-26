@@ -38,6 +38,10 @@
     background: #4995cf;
 }
 
+.statistics .progressContainer .progress-bar-empty {
+    background: none;
+}
+
 .statistics .progressContainer .stats {
     text-align: center;
 }

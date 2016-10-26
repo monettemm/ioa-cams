@@ -1,3 +1,9 @@
+## 2016-10-26
+• Added progress-bar-empty class to dashboard.css to display empty bg with no claims
+• Updated footer to add browser compatibility
+• Added spacer class to search-claims.css to add space between input fields
+• Working on claim-details.html and css not yet completed
+
 ## 2016-10-25
 • Updated copyright in app.css
 

@@ -73,3 +73,7 @@
 .input-group[class*="col-"] {
     float: left;
 }
+
+.spacer {
+    margin-top: 20px;
+}
