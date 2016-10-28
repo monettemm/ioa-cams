@@ -348,6 +348,16 @@ a, a:active, a:hover, a:focus, a:visited  {
     text-transform: uppercase;
 }
 
+.title-header {
+    padding: 3px 0 5px;
+    background: #4995cf;
+    color: #fff;
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 17px;
+}
+
 body.cams-pad {
     padding-bottom: 40px;
     padding-top: 65px;
@@ -371,6 +381,10 @@ body.cams-pad {
 
 .content .row {
     position: initial;
+}
+
+.claim-header {
+    color: #4995cf;
 }
 
 @media (min-width: 770px) {
@@ -685,6 +699,10 @@ body.cams-pad {
 }
 
 /**** Site Table *************************************/
+table {
+    width: 100%;
+}
+
 .panel {
     box-shadow: none;
 }
@@ -871,6 +889,7 @@ td {
     text-align: left;
     font-size: 13px;
     vertical-align: middle;
+    padding: 10px !important;
 }
 
 .info p {
@@ -898,8 +917,8 @@ td {
     background: #adadad;
 }
 
-.actionBtn a:first-child {
-    margin-bottom: 6px;
+.actionBtn a:not(:first-child) {
+    margin-top: 6px;
 }
 
 .actionBtn a:hover {
@@ -979,10 +998,14 @@ td {
     width: 100%;
 }
 
-.tablecontainer .cf th {
+th {
     text-align: left;
     font-weight: 700;
-    padding: 10px;
+    padding: 10px !important;
+}
+
+.th-icon {
+    width: 2%;
 }
 
 .tablecontainer .cf td {
@@ -998,13 +1021,49 @@ td {
     padding-left: 0;
     padding-right: 0;
 }
+/***** Form Controls ****************************/
 
-/***** Footer ****************************/
+.form-control {
+    margin-top: 8px;
+}
+
+.required:before {
+    color: red;
+    content: '*';
+}
+
+.form-divider {
+    margin-top: 10px;
+}
+
+/************* Tabs *************/
+.tabs-info {
+  border: 1px solid #b9b5b5;
+  margin-left: -2px;
+  border-top: none;
+}
+.nav.nav-tabs a {
+  background-color: #4995cf;
+  color: #ffffff;
+  border-radius: 0px;
+  border: none !important;
+  margin-left: -2px;
+  padding-right: 50px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .nav > li > a:focus, .nav > li > a:hover {
+  background-color: #3e83b8;
+  color: #ffffff;
+}
 
 
 /***** Misc ****************************/
 .warning {
     color: #E93F33;
+}
+
+.smallBtn {
+    font-size: 12px;
 }
 
 .claims-btn {
@@ -1027,7 +1086,6 @@ td {
 }
 
 
-
 .breadcrumb {
     background-color: #4995cf;
     font-size: 13px;
@@ -1047,14 +1105,31 @@ td {
 .sep::before {
     content: '';
     height: 100%;
-    width: .1px;
-    top: 5px;
+    width: 1px;
+    top: 10px;
     left: -1;
     width: 1px;
     height: 20px;
     border-right: 1px solid #4089c1;
     box-shadow: 1px 0 0 rgba(255,255,255,0.1);
     position: absolute;
-    right: 0;
+    z-index: 100;
+    right: 2;
     background-color: #ededed;
+}
+
+.spacer40 {
+    margin-top: 40px;
+}
+
+.spacer30 {
+    margin-top: 30px;
+}
+
+.spacer20 {
+    margin-top: 20px;
+}
+
+.spacer10 {
+    margin-top: 10px;
 }

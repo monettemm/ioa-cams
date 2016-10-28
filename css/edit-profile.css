@@ -1,23 +1,10 @@
-/************* Add New Claim Content *************/
+/************* Edit Profile *************/
 .panel-primary {
     border: 1px solid #ccc;
     border-radius: 0;
     margin-top: 20px;
 }
 
-.title-header {
-    padding: 3px 0 5px;
-    background: #4995cf;
-    color: #fff;
-    display: block;
-    clear: both;
-    text-align: center;
-    font-size: 17px;
-}
-
-.claim-header {
-    color: #4995cf;
-}
 
 #continue-button {
     background-color: #4995cf;
@@ -29,10 +16,6 @@
 #continue-button:hover {
     background-color: #4689bd;
     padding-bottom: 8px;
-}
-
-.new-claim {
-    padding-left: 0px;
 }
 
 .control-label {

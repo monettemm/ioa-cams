@@ -1,0 +1,31 @@
+/************* Company Info *************/
+.title-header {
+  padding: 3px 0 5px;
+  background: #4995cf;
+  color: #fff;
+  display: block;
+  clear: both;
+  text-align: center;
+  font-size: 17px;
+}
+
+.panel-primary {
+    border: medium none;
+    margin-top: 20px;
+}
+
+.claim-header > h4 {
+    line-height: 1.5;
+}
+
+.lg1 {
+  font-size: 11px;
+  padding-right: 5px;
+}
+
+.lg2 {
+  font-size: 11px;
+  padding-left: 5px;
+}
+
+

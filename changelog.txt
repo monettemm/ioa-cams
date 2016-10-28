@@ -1,3 +1,9 @@
+## 2016-10-27
+• Added company-info.html and css for company info page
+• Added edit-profile.html and css for edit profile page
+• Updated app.css by adding global styles
+• Linked left navigation to appropriate pages
+
 ## 2016-10-26
 • Added progress-bar-empty class to dashboard.css to display empty bg with no claims
 • Updated footer to add browser compatibility
