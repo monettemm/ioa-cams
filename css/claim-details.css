@@ -17,12 +17,14 @@
     margin-top: 20px;
 }
 
-.title-header {
-    padding: 3px 0 5px;
-    background: #4995cf;
-    color: #fff;
-    display: block;
-    clear: both;
-    text-align: center;
-    font-size: 17px;
+.summary-checkbox {
+    margin-left: 10px;
+}
+
+.form-group.col-xs-12.col-sm-12.col-md-6.col-lg-6 > input {
+    float: right;
+}
+
+.nav-tabs {
+  background-color: #4995cf;
 }
