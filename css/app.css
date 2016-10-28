@@ -1037,9 +1037,11 @@ th {
 }
 
 /************* Tabs *************/
+#nav-tabs {
+  background-color: #4995cf;
+}
 .tabs-info {
   border: 1px solid #b9b5b5;
-  margin-left: -2px;
   border-top: none;
 }
 .nav.nav-tabs a {
@@ -1053,6 +1055,15 @@ th {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, .nav > li > a:focus, .nav > li > a:hover {
   background-color: #3e83b8;
   color: #ffffff;
+}
+
+.tab-content {
+    margin-left: -2px;
+}
+
+.tab-pane {
+    padding-left: 5px;
+    padding-top: 10px;
 }
 
 
