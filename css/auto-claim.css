@@ -34,13 +34,6 @@
 .new-claim {
     padding-left: 0px;
 }
-
-.control-label {
-    color: #5e5e5e;
-    padding-bottom: 6px;
-    font-weight: 400;
-    text-align: left !important;
-}
 /************* Progress Bar On Right *************/
 
 .current-progress {

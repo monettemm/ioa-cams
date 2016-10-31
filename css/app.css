@@ -39,6 +39,7 @@ a, a:active, a:hover, a:focus, a:visited  {
 
 .sidebar-container {
     min-height: 600px;
+    border-bottom: 1px solid #ccc;
 }
 
 
@@ -174,7 +175,7 @@ a, a:active, a:hover, a:focus, a:visited  {
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 770px) {
     #sidebar {
         bottom: 0;
         top: 0x;
@@ -1034,6 +1035,13 @@ th {
 
 .form-divider {
     margin-top: 10px;
+}
+
+.control-label {
+    color: #3f3f3f;
+    padding-bottom: 6px;
+    font-weight: bold;
+    text-align: left !important;
 }
 
 /************* Tabs *************/

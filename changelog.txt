@@ -1,3 +1,9 @@
+## 2016-10-31
+• Updated edit-profile.html
+• Updated app.css to fix navigation from disappearing on smaller screens
+• Added nav role for validation
+• Added control-label class to app.css
+
 ## 2016-10-28
 • Added button on company-info.html for admin action
 • Updated app.css to remove padding-right on nav tabs
