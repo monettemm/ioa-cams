@@ -1023,10 +1023,17 @@ th {
     padding-right: 0;
 }
 /***** Form Controls ****************************/
+.form-control {      
+    padding-top: 8px;       
+}       
 
-.form-control {
-    margin-top: 8px;
+.input-group .form-control {        
+    margin-top: initial;        
 }
+
+/*input[type="text"], select, textarea {
+    margin-bottom: 5px;
+}*/
 
 .required:before {
     color: red;
@@ -1048,6 +1055,15 @@ th {
 #nav-tabs {
   background-color: #4995cf;
 }
+
+.nav-tabs {
+  background-color: #4995cf;
+}
+
+.cams-tabs {
+    margin-bottom: 10px;
+}
+
 .tabs-info {
   border: 1px solid #b9b5b5;
   border-top: none;
@@ -1069,11 +1085,9 @@ th {
     margin-left: -2px;
 }
 
-.tab-pane {
-    padding-left: 5px;
-    padding-top: 10px;
+.nav.nav-pills {
+    margin-bottom: 20px;
 }
-
 
 /***** Misc ****************************/
 .warning {
