@@ -12,11 +12,3 @@
 .summary-checkbox {
     margin-left: 10px;
 }
-
-.form-group.col-xs-12.col-sm-12.col-md-6.col-lg-6 > input {
-    float: right;
-}
-
-.nav-tabs {
-  background-color: #4995cf;
-}
