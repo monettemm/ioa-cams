@@ -1028,6 +1028,16 @@ th {
     margin-top: 8px;
 }
 
+.input-group {
+    padding-top: 8px;
+}
+
+.input-group .form-control {
+    margin-top: initial;
+}
+
+
+
 .required:before {
     color: red;
     content: '*';
