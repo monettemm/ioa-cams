@@ -1023,11 +1023,6 @@ th {
     padding-right: 0;
 }
 
-.input-group .input-group-addon {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 /***** Form Controls ****************************/
 
 .form-control {
@@ -1042,6 +1037,11 @@ th {
     margin-top: initial;
 }
 
+
+.input-group .input-group-addon {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
 .required:before {
