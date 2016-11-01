@@ -1022,11 +1022,27 @@ th {
     padding-left: 0;
     padding-right: 0;
 }
+
 /***** Form Controls ****************************/
 
 .form-control {
     margin-top: 8px;
 }
+
+.input-group {
+    padding-top: 8px;
+}
+
+.input-group .form-control {
+    margin-top: initial;
+}
+
+
+.input-group .input-group-addon {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 .required:before {
     color: red;
