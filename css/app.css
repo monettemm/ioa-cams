@@ -1150,6 +1150,10 @@ th {
     background-color: #ededed;
 }
 
+.spacer50 {
+    margin-top: 50px;
+}
+
 .spacer40 {
     margin-top: 40px;
 }
